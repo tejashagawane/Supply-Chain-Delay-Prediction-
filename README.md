@@ -1,18 +1,18 @@
-# Supply Chain Delay Prediction (ML + Dashboard)
+# 🚚 Supply Chain Delay Prediction (ML + Dashboard)
 
-## Overview
+## 📌Overview
 This project builds an end-to-end machine learning system to predict the risk of late deliveries in supply chain operations. It helps logistics teams identify high-risk shipments early and take proactive actions.
 
 ---
 
-## Objectives
+## 🎯 Objectives
 - Predict whether an order will be delayed  
 - Classify shipments into Low, Medium, and High risk  
 - Support data-driven logistics decisions  
 
 ---
 
-## Dataset
+## 📊Dataset
 - ~180,000 records  
 - Real-world supply chain dataset  
 
@@ -25,7 +25,7 @@ This project builds an end-to-end machine learning system to predict the risk of
 
 ---
 
-## Machine Learning Approach
+## 🧠 Machine Learning Approach
 
 **Models Used:**
 - Logistic Regression  
@@ -41,7 +41,7 @@ This project builds an end-to-end machine learning system to predict the risk of
 
 ---
 
-## Model Performance
+## 📈Model Performance
 
 | Metric | Value |
 |--------|------|
@@ -51,7 +51,7 @@ This project builds an end-to-end machine learning system to predict the risk of
 
 ---
 
-## Data Leakage Handling
+## 🚨 Data Leakage Handling
 Removed features:
 - Days for shipping (real)  
 - Delivery Status  
@@ -60,7 +60,7 @@ These features directly revealed the outcome and caused unrealistic predictions.
 
 ---
 
-## Dashboard Features
+## 📊 Dashboard Features
 - Real-time delay prediction  
 - Risk classification  
 - Risk gauge visualization  
@@ -69,7 +69,7 @@ These features directly revealed the outcome and caused unrealistic predictions.
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
@@ -79,14 +79,14 @@ These features directly revealed the outcome and caused unrealistic predictions.
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 pip install -r requirements.txt  
 streamlit run app.py  
 
 ---
 
-## Project Structure
+## 📂Project Structure
 
 project/  
 ├── app.py  
@@ -98,7 +98,7 @@ project/
 
 ---
 
-## Key Insights
+## 💡Key Insights
 - Standard shipping increases delay risk  
 - Larger orders increase complexity  
 - Short delivery windows increase pressure  
@@ -113,13 +113,13 @@ project/
 
 ---
 
-## Future Improvements
+## 🚀 Future Improvements
 - Improve recall  
 - Integrate real-time data  
 - Deploy on cloud  
 
 ---
 
-## Author
+## 👨‍💻Author
 Tejas Hagwane  
 https://github.com/tejashagawane
