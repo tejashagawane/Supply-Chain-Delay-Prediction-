@@ -1,4 +1,5 @@
 # 🚚 Supply Chain Delay Prediction (ML + Dashboard)
+**Live Dashboard:** https://l5mbhjcmdrceihvajl6egq.streamlit.app/
 
 ## 📌Overview
 This project builds an end-to-end machine learning system to predict the risk of late deliveries in supply chain operations. It helps logistics teams identify high-risk shipments early and take proactive actions.
@@ -79,6 +80,11 @@ These features directly revealed the outcome and caused unrealistic predictions.
 
 ---
 
+## 📊 Dashboard Preview
+
+![Dashboard](supply_chain.png)
+
+---
 ## 🚀 How to Run
 
 pip install -r requirements.txt  
